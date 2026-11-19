@@ -7,7 +7,7 @@ async fn main(){
      set_default_font(font);
     loop{
         clear_background(WHITE);
-        draw_text("hi :o", 20.0, 40.0, 30.0, BLACK);
+        draw_text("hi mr.davis :o", 20.0, 40.0, 30.0, BLACK);
         next_frame().await;
     }
 }
