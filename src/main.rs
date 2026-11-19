@@ -6,6 +6,8 @@ async fn main(){
     let font = load_ttf_font_from_bytes(fontdata).unwrap();
      set_default_font(font);
     loop{
-        draw_text("hi mr.davis :o", 20.0, 40.0, 30.0, WHITE);
+        clear_background(WHITE);
+        draw_text("hi :o", 20.0, 40.0, 30.0, BLACK);
+        
     }
 }
